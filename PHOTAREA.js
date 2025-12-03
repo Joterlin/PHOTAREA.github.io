@@ -141,3 +141,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   lightbox.addEventListener("click", cerrarLightbox);
 });
+
+function playClickSound() {
+  const audio = new Audio("click.mp3"); // asegúrate de tener este archivo
+  audio.volume = 0.5;
+  audio.play();
+}

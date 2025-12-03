@@ -225,3 +225,41 @@ footer .redes a:hover {
     max-width: 80%;
   }
 }
+
+#btn-original {
+  animation: pulseOriginal 1.5s infinite ease-in-out;
+}
+
+@keyframes pulseOriginal {
+  0% { transform: scale(1); box-shadow: 0 0 10px rgba(198,40,40,0.6); }
+  50% { transform: scale(1.08); box-shadow: 0 0 20px rgba(255,60,60,0.9); }
+  100% { transform: scale(1); box-shadow: 0 0 10px rgba(198,40,40,0.6); }
+}
+
+/* Botón dorado */
+.golden-btn {
+  background: linear-gradient(135deg, #B8860B, #FFD700, #DAA520);
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  margin: 5px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+/* Efecto hover */
+.golden-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+}
+
+/* Cuando un botón está activo */
+.golden-btn.active {
+  background: linear-gradient(135deg, #FFD700, #FFB500, #FFC300);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+}
