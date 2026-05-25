@@ -139,7 +139,7 @@ footer .redes a:hover {
   align-items: center;
   gap: 60px;
   flex-wrap: wrap;
-  min-height: 60vh; /* ocupa buena parte de la pantalla */
+  min-height: 60vh;
   margin-top: 30px;
   text-align: center;
 }
