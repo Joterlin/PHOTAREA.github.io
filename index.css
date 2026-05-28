@@ -236,30 +236,30 @@ footer .redes a:hover {
   100% { transform: scale(1); box-shadow: 0 0 10px rgba(198,40,40,0.6); }
 }
 
-/* Botón dorado */
+/* Botón PHOTAREA'S ORIGINAL */
 .golden-btn {
   background: linear-gradient(135deg, #B8860B, #FFD700, #DAA520);
-  color: #fff;
+  color: #ffffff;
   border: none;
-  padding: 12px 18px;
+  padding: 12px 20px;
   margin: 5px;
-  border-radius: 50px;
-  font-weight: bold;
-  font-size: 14px;
+  border-radius: 0;
+  font-size: 20px;
+  letter-spacing: 0.7px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s;
   outline: none;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  box-shadow: none;
 }
 
-/* Efecto hover */
+/* Hover */
 .golden-btn:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+  background: #c62828;
+  transform: scale(1.05);
 }
 
-/* Cuando un botón está activo */
+/* Activo */
 .golden-btn.active {
-  background: linear-gradient(135deg, #FFD700, #FFB500, #FFC300);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+  background: #c62828;
+  box-shadow: 0 0 10px rgba(198,40,40,0.6);
 }
