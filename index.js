@@ -72,13 +72,13 @@ document.addEventListener("DOMContentLoaded", () => {
       position: "absolute",
       top: "50%",
       transform: "translateY(-50%)",
-      background: "rgba(0,0,0,0.6)",
+      background: "transparent",
       border: "none",
       color: "#fff",
       fontSize: "40px",
-      padding: "12px",
+      padding: "0",
       cursor: "pointer",
-      borderRadius: "50%",
+      borderRadius: "0",
       transition: "background 0.3s"
     });
     btn.onmouseover = () => btn.style.background = "rgba(198,40,40,0.8)";
