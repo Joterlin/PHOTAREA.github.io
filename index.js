@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
   Object.assign(imgGrande.style, {
     maxWidth: "85%",
     maxHeight: "85%",
-    borderRadius: "12px",
+    borderRadius: "0px",
     boxShadow: "0 15px 40px rgba(0,0,0,0.7)",
     transform: "scale(0.5) rotate(-10deg)",
     opacity: "0",
