@@ -12,13 +12,19 @@
     <img src="logo.png" alt="Logo PHOTAREA">
   </header>
 
-  <nav>
-    <button class="golden-btn" onclick="playClickSound(); mostrarSeccion('original', this)"> PHOTAREA'S ORIGINAL</button>
-<button class="active" onclick="mostrarSeccion('sesiones', this)">SESIONES</button>
-    <button onclick="mostrarSeccion('cumple', this)">CUMPLEAÑOS</button>
-    <button onclick="mostrarSeccion('bodas', this)">BODAS</button>
-    <button onclick="mostrarSeccion('productos', this)">PRODUCTOS</button>
-  </nav>
+  <div class="original-destacado">
+  <button class="golden-btn"
+          onclick="playClickSound(); mostrarSeccion('original', this)">
+     PHOTAREA'S ORIGINAL
+  </button>
+</div>
+
+<nav>
+  <button class="active" onclick="mostrarSeccion('sesiones', this)">SESIONES</button>
+  <button onclick="mostrarSeccion('cumple', this)">CUMPLEAÑOS</button>
+  <button onclick="mostrarSeccion('bodas', this)">BODAS</button>
+  <button onclick="mostrarSeccion('productos', this)">PRODUCTOS</button>
+</nav>
 
   <main>
    <section id="original" class="seccion">

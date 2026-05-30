@@ -237,21 +237,23 @@ footer .redes a:hover {
 }
 
 /* Botón PHOTAREA'S ORIGINAL */
-.golden-btn {
-  background: linear-gradient(135deg, #B8860B, #FFD700, #DAA520);
-  color: #ffffff;
-  border: none;
-  padding: 12px 20px;
-  margin: 5px;
-  border-radius: 0;
+.original-destacado .golden-btn {
+  background: linear-gradient(145deg, #111, #000);
+  color: #FFD700;
+  border: 1px solid rgba(255, 215, 0, 0.5);
   font-size: 20px;
-  letter-spacing: 0.7px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.3s;
-  outline: none;
-  box-shadow: none;
+  transition: all 0.3s ease;
 }
-
+.original-destacado .golden-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.25);
+  border-color: #FFD700;
+}
 /* Hover */
 .golden-btn:hover {
   background: #c62828;
@@ -259,7 +261,25 @@ footer .redes a:hover {
 }
 
 /* Activo */
-.golden-btn.active {
-  background: #c62828;
-  box-shadow: 0 0 10px rgba(198,40,40,0.6);
+
+.original-destacado {
+  background: #000;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.original-destacado .golden-btn {
+  font-size: 20px;
+  padding: 12px 28px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+@keyframes premiumGlow {
+  from {
+    box-shadow: 0 0 10px rgba(255,215,0,0.4);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(255,215,0,0.9);
+  }
 }
