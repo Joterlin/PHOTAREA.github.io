@@ -353,26 +353,48 @@ footer .redes a:hover {
 
 }
 
-/* ===== Iconos de contacto ===== */
+/* ===== Contacto Header ===== */
 
 .header-contacto{
     margin-top:25px;
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:35px;
+    gap:30px;
+    flex-wrap:wrap;
 }
 
 .header-contacto a{
-    transition:0.3s;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
 }
 
 .header-contacto a:hover{
-    transform:scale(1.15);
+    color:#c62828;
 }
 
-.header-contacto img{
-    width:32px;
-    height:32px;
-    display:block;
+.header-contacto i{
+    font-size:24px;
+}
+
+.header-contacto a:first-child i{
+    margin-right:8px;
+}
+
+@media(max-width:700px){
+
+    .header-contacto{
+        gap:18px;
+    }
+
+    .header-contacto a{
+        font-size:16px;
+    }
+
+    .header-contacto i{
+        font-size:22px;
+    }
+
 }
