@@ -6,11 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/vnd.icon" href="logo.png">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body> 
-  <header>
+  
+ <header>
+
     <img src="logo.png" alt="Logo PHOTAREA">
-  </header>
+
+    <div class="header-contacto">
+
+      
+
+        <a href="https://instagram.com/photarea" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://tiktok.com/@photarea" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+    </div>
+
+</header>
 
   <div class="original-destacado">
   <button class="golden-btn"
@@ -21,9 +39,8 @@
 
 <nav>
   <button class="active" onclick="mostrarSeccion('sesiones', this)">SESIONES</button>
-  <button onclick="mostrarSeccion('cumple', this)">CUMPLEAÑOS</button>
-  <button onclick="mostrarSeccion('bodas', this)">BODAS</button>
-  <button onclick="mostrarSeccion('productos', this)">PRODUCTOS</button>
+  <button onclick="mostrarSeccion('eventos', this)">EVENTOS</button>
+  <button onclick="mostrarSeccion('productos', this)">MARCAS</button>
 </nav>
 
   <main>
@@ -104,9 +121,9 @@
          <img src="Sesion59.jpg" alt="Sesión 59">
          <img src="Sesion60.jpg" alt="Sesión 60">
          <img src="Sesion61.jpg" alt="Sesión 61">
-         <img src="Sesion62.jpg" alt="Sesión 62">
+    <!-- <img src="Sesion62.jpg" alt="Sesión 62">
          <img src="Sesion63.jpg" alt="Sesión 63">
-         <img src="Sesion64.jpg" alt="Sesión 64">
+         <img src="Sesion64.jpg" alt="Sesión 64">-->
 
 
 
@@ -115,44 +132,42 @@
       </div>
     </section>
 
-    <section id="bodas" class="seccion">
-      <h2>BODAS</h2>
-      <div class="galeria masonry">
-        <img src="Boda1.jpg" alt="Boda 1">
-        <img src="Boda2.jpg" alt="Boda 2">
-        <img src="Boda3.jpg" alt="Boda 3">
-        <img src="Boda4.jpg" alt="Boda 4">
-        <img src="Boda5.jpg" alt="Boda 5">
-        <img src="Boda6.jpg" alt="Boda 6">
-        <img src="Boda7.jpg" alt="Boda 7">
-        <img src="Boda8.jpg" alt="Boda 8">
-        <img src="Boda9.jpg" alt="Boda 9">
-        <img src="Boda10.jpg" alt="Boda 10">
-        <img src="Boda11.jpg" alt="Boda 111">
-        <img src="Boda12.jpg" alt="Boda 12">
-        <img src="Boda13.jpg" alt="Boda 13">
-        <img src="Boda14.jpg" alt="Boda 14">
-        <img src="Boda15.jpg" alt="Boda 15">
-        <img src="Boda16.jpg" alt="Boda 16">
-        <img src="Boda17.jpg" alt="Boda 17">
+   <section id="eventos" class="seccion">
+  <h2>EVENTOS</h2>
 
+  <div class="galeria masonry">
 
-      </div>
-    </section>
+    <!-- BODAS -->
+    <img src="Boda1.jpg" alt="Boda 1">
+    <img src="Boda2.jpg" alt="Boda 2">
+    <img src="Boda3.jpg" alt="Boda 3">
+    <img src="Boda4.jpg" alt="Boda 4">
+    <img src="Boda5.jpg" alt="Boda 5">
+    <img src="Boda6.jpg" alt="Boda 6">
+    <img src="Boda7.jpg" alt="Boda 7">
+    <img src="Boda8.jpg" alt="Boda 8">
+    <img src="Boda9.jpg" alt="Boda 9">
+    <img src="Boda10.jpg" alt="Boda 10">
+    <img src="Boda11.jpg" alt="Boda 11">
+    <img src="Boda12.jpg" alt="Boda 12">
+    <img src="Boda13.jpg" alt="Boda 13">
+    <img src="Boda14.jpg" alt="Boda 14">
+    <img src="Boda15.jpg" alt="Boda 15">
+    <img src="Boda16.jpg" alt="Boda 16">
+    <img src="Boda17.jpg" alt="Boda 17">
 
-   <section id="cumple" class="seccion">
-      <h2>CUMPLEAÑOS</h2>
-      <div class="galeria masonry">
-        <img src="Cumpleaños1.jpg" alt="Cumpleaños 1">
-        <img src="Cumpleaños2.jpg" alt="Cumpleaños 2">
-        <img src="Cumpleaños3.jpg" alt="Cumpleaños 3">
-        <img src="Cumpleaños4.jpg" alt="Cumpleaños 4">
-        <img src="Cumpleaños5.jpg" alt="Cumpleaños 5">
-      </div>
-    </section> 
+    <!-- CUMPLEAÑOS -->
+    <img src="Cumpleaños1.jpg" alt="Cumpleaños 1">
+    <img src="Cumpleaños2.jpg" alt="Cumpleaños 2">
+    <img src="Cumpleaños3.jpg" alt="Cumpleaños 3">
+    <img src="Cumpleaños4.jpg" alt="Cumpleaños 4">
+    <img src="Cumpleaños5.jpg" alt="Cumpleaños 5">
+
+  </div>
+</section>
 
    <section id="productos" class="seccion">
-    <h2>PRODUCTOS</h2>
+    <h2>MARCAS</h2>
 
     <div class="empresa-producto">
         <h3>BRAVORA Jewelry</h3>
@@ -208,11 +223,7 @@
 
   <footer>
     <p>&copy;  PHOTAREA 2026.</p>
-    <div class="redes">
-      <a href="https://instagram.com/photarea" target="_blank">Instagram</a>     
-      <a href="https://tiktok.com/@photarea" target="_blank">TikTok</a>
-
-    </div>
+   
   </footer>
 
   <script src="index.js"></script>
